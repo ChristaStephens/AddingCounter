@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AddingCounterComponent } from './adding-counter/adding-counter.component';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddingCounterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
